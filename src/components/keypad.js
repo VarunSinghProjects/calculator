@@ -59,25 +59,25 @@ function Keypad({ handleClick, handleClear, calculate }) {
         {/* to print the 3rd row */}
         <div className="row">
             <button className="digit" 
-                    onClick={() => {handleClick("4")}}
+                    onClick={() => {handleClick("1")}}
             >
                 1
             </button>
 
             <button className="digit" 
-                    onClick={() => {handleClick("5")}}
+                    onClick={() => {handleClick("2")}}
             >
                 2
             </button>
 
             <button className="digit" 
-                    onClick={() => { handleClick("6") }}
+                    onClick={() => { handleClick("3") }}
             >
                 3
             </button>
 
             <button className="operator" 
-                    onClick={() => {handleClick("*")}}
+                    onClick={() => {handleClick("-")}}
            >
                 -
             </button>
